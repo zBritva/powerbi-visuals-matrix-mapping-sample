@@ -1,0 +1,38 @@
+{
+    "dataRoles": [
+        {
+            "name": "Category",
+            "displayName": "Category",
+            "displayNameKey": "Visual_Groups",
+            "kind": "Grouping"
+        },
+        {
+            "name": "Measure",
+            "displayName": "Measure",
+            "displayNameKey": "Visual_Values",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {},
+    "dataViewMappings": [
+        {
+            "matrix": {
+                "rows": {
+                    "for": {
+                        "in": "Category"
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "Measure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "supportsHighlight": false
+}

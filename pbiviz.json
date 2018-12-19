@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "testTable",
+    "displayName": "testTable",
+    "guid": "testTable45D1C0151B4F4630A3B2BE828DF460CB",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.13.0",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "stringResources": []
+}
