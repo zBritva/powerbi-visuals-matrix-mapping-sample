@@ -3,7 +3,13 @@
         {
             "name": "Category",
             "displayName": "Category",
-            "displayNameKey": "Visual_Groups",
+            "displayNameKey": "Visual_Category",
+            "kind": "Grouping"
+        },
+        {
+            "name": "Column",
+            "displayName": "Column",
+            "displayNameKey": "Visual_Column",
             "kind": "Grouping"
         },
         {
@@ -13,13 +19,17 @@
             "kind": "Measure"
         }
     ],
-    "objects": {},
     "dataViewMappings": [
         {
             "matrix": {
                 "rows": {
                     "for": {
                         "in": "Category"
+                    }
+                },
+                "columns": {
+                    "for": {
+                        "in": "Column"
                     }
                 },
                 "values": {
@@ -33,6 +43,5 @@
                 }
             }
         }
-    ],
-    "supportsHighlight": false
+    ]
 }
